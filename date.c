@@ -16,13 +16,13 @@ void work(int x){
 	if(x==7) printf("Sunday"); 
 }
 void day(int x){
-	if(x%10==1){
+	if(x==21||x==31){
 		printf("st");
 	}
-	else if(x%10==2){
+	else if(x==22){
 		printf("nd");
 	}
-	else if(x%10==3){
+	else if(x==23){
 		printf("rd");
 	}
 	else{
